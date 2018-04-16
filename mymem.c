@@ -13,7 +13,8 @@ int main(int argc,char* argv[])
 	char a[50] = "Stack usage: ";
 	char d[50] = "bytes";
     char buf[50];
-	clock_t stop, start;
+	struct timespec tstart={0,0}, tend={0,0};	
+	//clock_t stop, start;
 	uint32_t ns, SIZE;
 	int stack = 0, q;
 	
@@ -25,19 +26,26 @@ int main(int argc,char* argv[])
 	uint8_t * fill = (uint8_t *) malloc(SIZE);
 	uint8_t * src = (uint8_t *) malloc(SIZE);
 
-	uint32_t factor = 1000000000 / CLOCKS_PER_SEC;
-	start=clock();
+	//uint32_t factor = 1000000000 / CLOCKS_PER_SEC;
+	
+	//start=clock();
+	clock_gettime(CLOCK_MONOTONIC, &tstart);
 	my_memset(fill, SIZE, 0xff);
-	stop=clock();
-	ns = ((uint32_t) (stop - start))*factor;
+	//stop=clock();
+	clock_gettime(CLOCK_MONOTONIC, &tend);
+	//ns = ((uint32_t) (stop - start))*factor;
+	ns = tend.tv_nsec - tstart.tv_nsec;
 
 	printf("%s%d\n", c2, SIZE);	//profile memset
 	printf("%s%d\n", b, (int) ns);
 
-	start=clock();
+	//start=clock();
+	clock_gettime(CLOCK_MONOTONIC, &tstart);
 	my_memmove(src, fill, SIZE);
-	stop=clock();
-	ns = ((uint32_t) (stop - start))*factor;
+	//stop=clock();
+	clock_gettime(CLOCK_MONOTONIC, &tend);
+	//ns = ((uint32_t) (stop - start))*factor;
+	ns = tend.tv_nsec - tstart.tv_nsec;
 
 	printf("%s%d\n", c, SIZE);	//profile memmove
 	printf("%s%d\n", b, (int) ns);
