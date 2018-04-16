@@ -1,3 +1,6 @@
+Note: According to BeagleBone datasheet, AM335x in BBB runs at 1GHz
+So number of clock cycles equals to time in nano seconds.
+
 //library function
 
 Number of bytes Transferred: 10
