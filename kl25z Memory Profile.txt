@@ -1,0 +1,172 @@
+//C library memory functions
+
+Number of bytes Set: 10
+Number of clock cycles: 99
+Time in nano seconds: 4720
+Number of bytes Transferred: 10
+Number of clock cycles: 139
+Time in nano seconds: 6628
+Stack usage: 372 bytes
+
+Number of bytes Set: 100
+Number of clock cycles: 730
+Time in nano seconds: 34809
+Number of bytes Transferred: 100
+Number of clock cycles: 945
+Time in nano seconds: 45061
+Stack usage: 10587 bytes
+
+Number of bytes Set: 1000
+Number of clock cycles: 7031
+Time in nano seconds: 335264
+Number of bytes Transferred: 1000
+Number of clock cycles: 9050
+Time in nano seconds: 431537
+Stack usage: 11511 bytes
+
+Number of bytes Set: 5000
+Number of clock cycles: 35036
+Time in nano seconds: 1670646
+Number of bytes Transferred: 5000
+Number of clock cycles: 45496
+Time in nano seconds: 2169417
+Stack usage: 15495 bytes
+
+//My memory function-optimization 0
+
+Number of bytes Set: 10
+Number of clock cycles: 300
+Time in nano seconds: 14305
+Number of bytes Transferred: 10
+Number of clock cycles: 378
+Time in nano seconds: 18024
+Stack usage: 10703 bytes
+
+Number of bytes Set: 100
+Number of clock cycles: 2460
+Time in nano seconds: 117301
+Number of bytes Transferred: 100
+Number of clock cycles: 3077
+Time in nano seconds: 146722
+Stack usage: 10799 bytes
+
+Number of bytes Set: 1000
+Number of clock cycles: 24062
+Time in nano seconds: 1147365
+Number of bytes Transferred: 1000
+Number of clock cycles: 30301
+Time in nano seconds: 1444863
+Stack usage: 11723 bytes
+
+Number of bytes Set: 5000
+Number of clock cycles: 120066
+Time in nano seconds: 5725191
+Number of bytes Transferred: 5000
+Number of clock cycles: 151402
+Time in nano seconds: 7219407
+Stack usage: 15707 bytes
+
+//My memory function-optimization 3
+
+Number of bytes Set: 10
+Number of clock cycles: 121
+Time in nano seconds: 5769
+Number of bytes Transferred: 10
+Number of clock cycles: 103
+Time in nano seconds: 4911
+Stack usage: 372 bytes
+
+Number of bytes Set: 100
+Number of clock cycles: 751
+Time in nano seconds: 35810
+Number of bytes Transferred: 100
+Number of clock cycles: 939
+Time in nano seconds: 44774
+Stack usage: 372 bytes
+
+Number of bytes Set: 1000
+Number of clock cycles: 7051
+Time in nano seconds: 336217
+Number of bytes Transferred: 1000
+Number of clock cycles: 9040
+Time in nano seconds: 431060
+Stack usage: 372 bytes
+
+Number of bytes Set: 5000
+Number of clock cycles: 35060
+Time in nano seconds: 1671790
+Number of bytes Transferred: 5000
+Number of clock cycles: 45324
+Time in nano seconds: 2161216
+Stack usage: 372 bytes
+
+//DMA Profile Result
+
+Number of bytes Set: 10
+Number of clock cycles: 91
+Time in nano seconds: 4339
+Number of bytes Transferred: 10
+Number of clock cycles: 94
+Time in nano seconds: 4482
+Stack usage: 11059 bytes
+
+NumberNumber of bytes Set: 100
+Number of clock cycles: 271
+Time in nano seconds: 12922
+Number of bytes Transferred: 100
+Number of clock cycles: 274
+Time in nano seconds: 13065
+Stack usage: 11155 bytes
+
+Number of bytes Set: 1000
+Number of clock cycles: 2071
+Time in nano seconds: 98752
+Number of bytes Transferred: 1000
+Number of clock cycles: 2074
+Time in nano seconds: 98895
+Stack usage: 12079 bytes
+
+Number of bytes Set: 5000
+Number of clock cycles: 10071
+Time in nano seconds: 480222
+Number of bytes Transferred: 5000
+Number of clock cycles: 10073
+Time in nano seconds: 480317
+Stack usage: 16063 bytes
+
+
+//DMA with 32bit transfer
+
+Number of bytes Set: 10
+Number of clock cycles: 69
+Time in nano seconds: 3290
+Number of bytes Transferred: 10
+Number of clock cycles: 72
+Time in nano seconds: 3433
+Stack usage: 380 bytes
+
+Number of bytes Set: 100
+Number of clock cycles: 69
+Time in nano seconds: 3290
+Number of bytes Transferred: 100
+Number of clock cycles: 124
+Time in nano seconds: 5912
+Stack usage: 380 bytes
+
+Number of bytes Set: 1000
+Number of clock cycles: 69
+Time in nano seconds: 3290
+Number of bytes Transferred: 1000
+Number of clock cycles: 176629
+Time in nano seconds: 8422324
+Stack usage: 380 bytes
+
+Number of bytes Set: 5000
+Number of clock cycles: 69
+Time in nano seconds: 3290
+Number of bytes Transferred: 5000
+Number of clock cycles: 883819
+Time in nano seconds: 42143760
+Stack usage: 380 bytes
+
+
