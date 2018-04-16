@@ -14,7 +14,7 @@ Time in nano seconds: 34809
 Number of bytes Transferred: 100
 Number of clock cycles: 945
 Time in nano seconds: 45061
-Stack usage: 10587 bytes
+Stack usage: 372 bytes
 
 Number of bytes Set: 1000
 Number of clock cycles: 7031
@@ -22,7 +22,7 @@ Time in nano seconds: 335264
 Number of bytes Transferred: 1000
 Number of clock cycles: 9050
 Time in nano seconds: 431537
-Stack usage: 11511 bytes
+Stack usage: 372 bytes
 
 Number of bytes Set: 5000
 Number of clock cycles: 35036
@@ -30,7 +30,7 @@ Time in nano seconds: 1670646
 Number of bytes Transferred: 5000
 Number of clock cycles: 45496
 Time in nano seconds: 2169417
-Stack usage: 15495 bytes
+Stack usage: 372 bytes
 
 //My memory function-optimization 0
 
@@ -40,7 +40,7 @@ Time in nano seconds: 14305
 Number of bytes Transferred: 10
 Number of clock cycles: 378
 Time in nano seconds: 18024
-Stack usage: 10703 bytes
+Stack usage: 372 bytes
 
 Number of bytes Set: 100
 Number of clock cycles: 2460
@@ -48,7 +48,7 @@ Time in nano seconds: 117301
 Number of bytes Transferred: 100
 Number of clock cycles: 3077
 Time in nano seconds: 146722
-Stack usage: 10799 bytes
+Stack usage: 372 bytes
 
 Number of bytes Set: 1000
 Number of clock cycles: 24062
@@ -56,7 +56,7 @@ Time in nano seconds: 1147365
 Number of bytes Transferred: 1000
 Number of clock cycles: 30301
 Time in nano seconds: 1444863
-Stack usage: 11723 bytes
+Stack usage: 372 bytes
 
 Number of bytes Set: 5000
 Number of clock cycles: 120066
@@ -64,7 +64,7 @@ Time in nano seconds: 5725191
 Number of bytes Transferred: 5000
 Number of clock cycles: 151402
 Time in nano seconds: 7219407
-Stack usage: 15707 bytes
+Stack usage: 372 bytes
 
 //My memory function-optimization 3
 
