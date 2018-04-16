@@ -108,7 +108,7 @@ Time in nano seconds: 4339
 Number of bytes Transferred: 10
 Number of clock cycles: 94
 Time in nano seconds: 4482
-Stack usage: 11059 bytes
+Stack usage: 380 bytes
 
 NumberNumber of bytes Set: 100
 Number of clock cycles: 271
@@ -116,7 +116,7 @@ Time in nano seconds: 12922
 Number of bytes Transferred: 100
 Number of clock cycles: 274
 Time in nano seconds: 13065
-Stack usage: 11155 bytes
+Stack usage: 380 bytes
 
 Number of bytes Set: 1000
 Number of clock cycles: 2071
@@ -124,7 +124,7 @@ Time in nano seconds: 98752
 Number of bytes Transferred: 1000
 Number of clock cycles: 2074
 Time in nano seconds: 98895
-Stack usage: 12079 bytes
+Stack usage: 380 bytes
 
 Number of bytes Set: 5000
 Number of clock cycles: 10071
@@ -132,7 +132,7 @@ Time in nano seconds: 480222
 Number of bytes Transferred: 5000
 Number of clock cycles: 10073
 Time in nano seconds: 480317
-Stack usage: 16063 bytes
+Stack usage: 380 bytes
 
 
 //DMA with 32bit transfer
@@ -157,16 +157,16 @@ Number of bytes Set: 1000
 Number of clock cycles: 69
 Time in nano seconds: 3290
 Number of bytes Transferred: 1000
-Number of clock cycles: 176629
-Time in nano seconds: 8422324
+Number of clock cycles: 930
+Time in nano seconds: 44340
 Stack usage: 380 bytes
 
 Number of bytes Set: 5000
 Number of clock cycles: 69
 Time in nano seconds: 3290
 Number of bytes Transferred: 5000
-Number of clock cycles: 883819
-Time in nano seconds: 42143760
+Number of clock cycles: 4557
+Time in nano seconds: 217266
 Stack usage: 380 bytes
 
 
