@@ -12,6 +12,11 @@
 #define RGB_RED_PIN       18
 #define RGB_GREEN_PIN     19
 #define RGB_BLUE_PIN      1
+#define CE				  1
+#define CSN 			  2
+#define SCLK			  5
+#define MOSI			  6
+#define MISO			  7
 
 void GPIO_Configure();
 /***************************************************************
@@ -61,6 +66,8 @@ void PORTD_Toggle(uint8_t bit_num);
 @brief: toggles port D's respective GPIO pin
 @param: the bit number
 ****************************************************************/
+
+void GPIO_nrf_init();
 
 #define RGB_RED_ON()     (PORTB_Clear( RGB_RED_PIN ))
 #define RGB_RED_OFF()    (PORTB_Set( RGB_RED_PIN ))

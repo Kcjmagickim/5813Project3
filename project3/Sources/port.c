@@ -54,3 +54,15 @@ void PORTD_Toggle(uint8_t bit_num){
 	uint32_t clear = 0x1 << bit_num;
 	PTD_BASE_PTR->PTOR |= clear;
 }//These two functions should use the appropriate GPIO function to toggle the output (PTOR)
+
+void GPIO_nrf_init(){
+	//SPI0 clock
+	SIM->SCGC4 |= SIM_SCGC4_SPI0_MASK;
+	SIM_SCGC5 |= SIM_SCGC5_PORTC_MASK;
+	PORTC_PCR5 = PORT_PCR_MUX(2);  // SCLK
+	PORTC_PCR6 = PORT_PCR_MUX(2);  // MOSI
+	PORTC_PCR7 = PORT_PCR_MUX(2);  // MISO
+	PORTB_PCR1 = PORT_PCR_MUX(1);  // CE
+	PORTB_PCR2 = PORT_PCR_MUX(1);  // CSN
+	GPIOB_PDDR |= ((1 << CE) + (1 << CSN));
+}
