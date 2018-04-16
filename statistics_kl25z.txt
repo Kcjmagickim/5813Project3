@@ -146,24 +146,24 @@ Time in nano seconds: 3433
 Stack usage: 380 bytes
 
 Number of bytes Set: 100
-Number of clock cycles: 69
-Time in nano seconds: 3290
+Number of clock cycles: 207
+Time in nano seconds: 9877
 Number of bytes Transferred: 100
 Number of clock cycles: 124
 Time in nano seconds: 5912
 Stack usage: 380 bytes
 
 Number of bytes Set: 1000
-Number of clock cycles: 69
-Time in nano seconds: 3290
+Number of clock cycles: 1698
+Time in nano seconds: 80991
 Number of bytes Transferred: 1000
 Number of clock cycles: 930
 Time in nano seconds: 44340
 Stack usage: 380 bytes
 
 Number of bytes Set: 5000
-Number of clock cycles: 69
-Time in nano seconds: 3290
+Number of clock cycles: 8575
+Time in nano seconds: 409023
 Number of bytes Transferred: 5000
 Number of clock cycles: 4557
 Time in nano seconds: 217266
