@@ -1,0 +1,77 @@
+//library function
+
+Number of bytes Transferred: 10
+Time in nano seconds: 6208
+Number of bytes Set: 10
+Time in nano seconds: 36208
+Stack usage: 376 bytes
+
+Number of bytes Transferred: 100
+Time in nano seconds: 6333
+Number of bytes Set: 100
+Time in nano seconds: 36083
+Stack usage: 376 bytes
+
+Number of bytes Transferred: 1000
+Time in nano seconds: 8084
+Number of bytes Set: 1000
+Time in nano seconds: 41417
+Stack usage: 376 bytes
+
+Number of bytes Transferred: 5000
+Time in nano seconds: 13750
+Number of bytes Set: 5000
+Time in nano seconds: 60209
+Stack usage: 376 bytes
+
+//My memory - 0 Optimization
+
+Number of bytes Set: 10
+Time in nano seconds: 7000
+Number of bytes Transferred: 10
+Time in nano seconds: 6416
+Stack usage: 384 bytes
+
+Number of bytes Set: 100
+Time in nano seconds: 10958
+Number of bytes Transferred: 100
+Time in nano seconds: 12500
+Stack usage: 384 bytes
+
+Number of bytes Set: 1000
+Time in nano seconds: 53292
+Number of bytes Transferred: 1000
+Time in nano seconds: 79125
+Stack usage: 384 bytes
+
+Number of bytes Set: 5000
+Time in nano seconds: 240291
+Number of bytes Transferred: 5000
+Time in nano seconds: 378708
+Stack usage: 384 bytes
+
+//My memory - 3 Optimization
+
+Number of bytes Set: 10
+Time in nano seconds: 6875
+Number of bytes Transferred: 10
+Time in nano seconds: 6291
+Stack usage: 360 bytes
+
+Number of bytes Set: 100
+Time in nano seconds: 11125
+Number of bytes Transferred: 100
+Time in nano seconds: 12875
+Stack usage: 360 bytes
+
+Number of bytes Set: 1000
+Time in nano seconds: 52667
+Number of bytes Transferred: 1000
+Time in nano seconds: 79459
+Stack usage: 360 bytes
+
+Number of bytes Set: 5000
+Time in nano seconds: 239792
+Number of bytes Transferred: 5000
+Time in nano seconds: 378292
+Stack usage: 360 bytes
