@@ -13,7 +13,8 @@ OBJS := $(SRCS:.c=.o)
 
 ASMS := $(SRCS:.c=.asm)
 
-LDFLAGS = -lm
+LDFLAGS = -lm \
+		-lrt
 
 CFLAGS = -Wall	\
 		-Werror	\
