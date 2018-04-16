@@ -19,13 +19,13 @@ CFLAGS = -Wall	\
 		-Werror	\
 		-g 		\
 		-O0		\
-		-std=c99 
+		-std=gnu99 
 
 CFLAGS2 = -Wall	\
 		-Werror	\
 		-g 		\
 		-O3		\
-		-std=c99 
+		-std=gnu99 
 
 ifeq ($(PLATFORM),KL25z)
 	CC = arm-none-eabi-gcc
@@ -48,7 +48,7 @@ memory.o: memory.c
 
 .PHONY: clean
 clean:
-	rm -f *.o *~ *.asm *.i *.d mem_profile.elf
+	rm -f *.o *~ *.asm *.i *.d *.su library mymem0 mymem3
 
 .PHONY: library
 library:
