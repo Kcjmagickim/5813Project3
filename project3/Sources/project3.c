@@ -1,3 +1,10 @@
+/**********************************
+@file: project3.c
+@brief: Demonstrate SPI communication with nrf module by continuously reading/writing to registers
+@author: John Kim
+@date: Apr 11th, 2018
+***********************************/
+
 #include "project3.h"
 #include "nordic.h"
 #include "uart.h"
