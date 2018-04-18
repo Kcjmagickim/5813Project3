@@ -1,8 +1,9 @@
 /**********************************
-@file:
-@brief:
+@file: nordic.c
+@brief: library for nrf24I01 module
 @author: John Kim
-@date:
+@date: Apr 7th, 2018
+Note: all function description resides in header file
 ***********************************/
 
 #include <stdint.h>
