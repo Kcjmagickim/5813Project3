@@ -27,7 +27,7 @@ void dma_setup(uint8_t mode);
 
 void memmove_dma(uint8_t *src, uint8_t *dst, size_t length);
 /***************************************
-@brief: moves length number of bytes from source to destination
+@brief: moves length number of bytes from source to destination. address overlap protected
 @param: src-source pointer dst-destination pointer length-number of bytes to transfer
 ****************************************/
 
@@ -36,6 +36,10 @@ void memset_dma(uint8_t *src, size_t length, uint8_t value);
 @brief: sets length number of bytes as value
 @param: src-address to set length-number of bytes to set value-value to set
 ****************************************/
+
 void DMA0_IRQHandler(void);
+/***************************************
+@brief: handles interrupt triggered when DMA transfer is over
+****************************************/
 
 #endif /*DMA*/
