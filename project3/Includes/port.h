@@ -2,7 +2,7 @@
 @file: port.h
 @brief: Provdies control over GPIO, including LED pins
 @author: John Kim
-@date: Feb 17th, 2018
+@date: Feb 17th, 2018 (updated Apr 5th)
 ***********************************/
 
 #include "MKL25Z4.h"
@@ -68,6 +68,9 @@ void PORTD_Toggle(uint8_t bit_num);
 ****************************************************************/
 
 void GPIO_nrf_init();
+/***************************************
+@brief: Enables GPIO pins for CSN and CE
+****************************************/
 
 #define RGB_RED_ON()     (PORTB_Clear( RGB_RED_PIN ))
 #define RGB_RED_OFF()    (PORTB_Set( RGB_RED_PIN ))
