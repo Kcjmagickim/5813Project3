@@ -1,3 +1,11 @@
+/**********************************
+@file: dma.c
+@brief: sets up and executes DMA for KL25z
+@author: John Kim
+@date: Mar 31st, 2018
+Note: all function description resides in header file
+***********************************/
+
 #include <stdint.h>
 #include <stddef.h>
 #include "dma.h"
