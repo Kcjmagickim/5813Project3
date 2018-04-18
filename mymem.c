@@ -1,6 +1,6 @@
 /**********************************
 @file: mymem.c
-@brief: profiles my_memmove and my_memset functions
+@brief: profiles my_memmove and my_memset functions (BBB)
 @author: John Kim
 @date: Apr 4th, 2018
 ***********************************/
