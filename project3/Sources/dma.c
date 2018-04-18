@@ -67,7 +67,7 @@ void dma_setup(uint8_t mode){
 	DMAMUX0_CHCFG0 |= DMAMUX_CHCFG_ENBL_MASK;
 }
 
-uint8_t * memmove_dma(uint8_t *src, uint8_t *dst, size_t length){
+void memmove_dma(uint8_t *src, uint8_t *dst, size_t length){
 	done = 0;
 	DMA_SAR0 = (uint32_t) src;
 	DMA_DAR0 = (uint32_t) dst;
@@ -99,7 +99,7 @@ uint8_t * memmove_dma(uint8_t *src, uint8_t *dst, size_t length){
 	}
 }
 
-uint8_t * memset_dma(uint8_t *src, size_t length, uint8_t value){
+void memset_dma(uint8_t *src, size_t length, uint8_t value){
 	done=0;
 	DMA_SAR0 = (uint32_t) &value;
 	DMA_DAR0 = (uint32_t) src;
