@@ -1,3 +1,9 @@
+/**********************************
+@file: library.c
+@brief: profiles c-library memmvoe and memset functions
+@author: John Kim
+@date: Apr 4th, 2018
+***********************************/
 #include <stdlib.h>
 #include <string.h>
 #include "memory.h"
