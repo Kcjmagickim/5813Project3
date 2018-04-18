@@ -152,14 +152,14 @@ __attribute__((always_inline)) static inline void nrf_transmit_enable(){
 	PTB_BASE_PTR->PSOR |= 0x1 << CE;
 }
 /***************************************
-@brief: Inline function that puts nrf module into transmit mode
+@brief: Inline function that drives CE high
 ****************************************/
 
 __attribute__((always_inline)) static inline void nrf_transmit_disable(){
 	PTB_BASE_PTR->PCOR |= 0x1 << CE;
 }
 /***************************************
-@brief: Inline function that puts nrf module into transmit mode
+@brief: Inline function that drives CE low
 ****************************************/
 
 #endif /*nordic*/
