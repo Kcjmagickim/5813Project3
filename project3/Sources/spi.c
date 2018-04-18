@@ -1,8 +1,8 @@
-/****************************************************
-@file:
-@brief:
+ /****************************************************
+@file: spi.c
+@brief: initialize, write, and read SPI data
 @author: John Kim
-@date:
+@date: Apr 7th, 2018
 Note: function description resides in the header file
 ****************************************************/
 
