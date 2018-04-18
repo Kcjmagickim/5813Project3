@@ -3,6 +3,7 @@
 @brief: Demonstrate SPI communication with nrf module by continuously reading/writing to registers
 @author: John Kim
 @date: Apr 11th, 2018
+Note: function description in header file
 ***********************************/
 
 #include "project3.h"
