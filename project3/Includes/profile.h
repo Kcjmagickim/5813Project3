@@ -1,8 +1,8 @@
 /**********************************
-@file:
-@brief:
+@file: profile.h
+@brief: header file for KL25z memory profile function
 @author: John Kim
-@date:
+@date: Apr 4th, 2018
 ***********************************/
 
 #include <stdint.h>
