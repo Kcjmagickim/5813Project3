@@ -1,3 +1,10 @@
+/**********************************
+@file: profile.c
+@brief: profiles memory library, mymemory, and DMA function (KL25z)
+@author: John Kim
+@date: Apr 4th, 2018
+***********************************/
+
 #include "MKL25Z4.h"
 #include "systick.h"
 #include "dma.h"
