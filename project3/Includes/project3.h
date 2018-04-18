@@ -1,15 +1,16 @@
 /**********************************
 @file: project3.h
-@brief:
+@brief: header file for project.c
 @author: John Kim
-@date:
+@date: Apr 11th, 2018
 ***********************************/
+
 #ifndef PROJECT3_H
 #define PROJECT3_H
 
 void project3();
 /***************************************************************
-@brief:
+@brief: starts infinite SPI write/read loop
 ****************************************************************/
 
 #endif /*project3*/
