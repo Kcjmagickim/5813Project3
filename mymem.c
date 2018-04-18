@@ -1,3 +1,10 @@
+/**********************************
+@file: mymem.c
+@brief: profiles my_memmove and my_memset functions
+@author: John Kim
+@date: Apr 4th, 2018
+***********************************/
+
 #include <stdlib.h>
 #include <string.h>
 #include "memory.h"
